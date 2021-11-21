@@ -10,7 +10,7 @@ Only use this on unstructured data with loose consistency requirement, like Mark
 
 ```
 docker run \
-  -e URL=git@github.com:losfair/palette-cat-ghost-content.git \
+  -e URL=git@github.com:github/example.git \
   -e GIT_BRANCH=main \
   -v /path/to/your/data/directory:/data
   -v /path/to/your/ssh/private/key:/root/.ssh/id_ed25519
