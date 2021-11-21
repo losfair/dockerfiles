@@ -4,6 +4,8 @@ Periodically fetch from a remote Git repository, merge with local, and push back
 
 In case of conflict, remote changes are preferred.
 
+Only use this on unstructured data with loose consistency requirement, like Markdown files and media blobs.
+
 ## Usage
 
 ```
